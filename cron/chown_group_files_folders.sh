@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 find /home/sdal/projects/ -mindepth 1 -maxdepth 1 -type d | while read proj_fdr
 do
 	echo $proj_fdr
