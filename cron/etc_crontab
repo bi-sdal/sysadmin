@@ -13,7 +13,6 @@ MAILTO=root
 # |  |  |  |  |
 # *  *  *  *  * user-name  command to be executed
 
-0  0  *  *  * /home/sdal/git/sysadmin/cron/chmod_440_original_data.sh
-0  0  *  *  * /home/sdal/git/sysadmin/cron/chown_group_files_folders.sh
-0  0  *  *  * /home/sdal/git/sysadmin/cron/setfacl_chmod_folders.sh
-0  0  *  *  * echo "crontab run at $(date)" >> /home/sdal/crontab.log
+0  0  *  *  * root bash /home/sdal/git/sysadmin/cron/chmod_440_original_data.sh
+0  0  *  *  * root bash /home/sdal/git/sysadmin/cron/chown_group_files_folders.sh
+0  0  *  *  * root bash /home/sdal/git/sysadmin/cron/setfacl_chmod_folders.sh
