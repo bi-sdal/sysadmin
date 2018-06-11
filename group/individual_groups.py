@@ -3,7 +3,7 @@ from subprocess import call
 import pandas as pd
 from numpy import vectorize
 
-gp_df = pd.read_csv('groups.csv')
+gp_df = pd.read_csv('dspg18_groups.csv')
 
 print('sort by group:')
 print(gp_df.sort_values(['group', 'pid']))
